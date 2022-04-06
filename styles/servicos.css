@@ -1,0 +1,68 @@
+.mService {
+    background-color: white;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    color: #062e4e;
+    margin-bottom: 1.9px;
+}
+
+.subTitulo {
+    text-align: center;
+    font-size: 20px;
+    color: #062e4e;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+}
+
+.service {
+    width: 231px;
+    height: 266px;
+    border: 1px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.service .imagem {
+    width: 230px;
+    height: 266px;
+    padding: 1px;
+}
+
+.service .nomeService {
+    text-align: center;
+    font-size: large;
+    width: 180px;
+    height: 36px;
+    background-color: #002e4e;
+    color: white;
+}
+
+.service .btn {
+    position: relative;
+    width: 51px;
+    height: 36px;
+    background-color: #9e5c29;
+    left: 181px;
+    bottom: 36px;
+}
+
+.service .btn .link {
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+    width: 51px;
+    height: 36px;
+    color: white;
+}
