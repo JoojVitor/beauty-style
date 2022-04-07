@@ -1,0 +1,63 @@
+.carousel-item img{
+    width: 100%;
+    margin: auto;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+.carousel .carousel-indicators li {
+    background-color: #9e5c29;
+}
+
+.carousel .carousel-indicators li.active {
+    background-color: #002e4e;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+.btn-banner {
+    position: absolute;
+    background-color: #002e4e;
+    color: #fff;
+    display: flex;
+    border: none;
+    border-radius: 0.3em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.5vw;
+    text-align: center;
+    transition: all 0.2s linear 0s;
+}
+
+.btn-banner:hover{
+    background-color: #00253e;
+    box-shadow: -2vw 1vw #9e5c29;
+}
+
+.btn-agendamento {
+    bottom: 25%;
+    left: 15.2%;
+    width: 17vw;
+    height: 2.5vw;
+}
+
+.btn-contato {
+    bottom: 50%;
+    left: 70%;
+    width: 20vw;
+    height: 2.5vw;
+}
+
+.btn-servicos {
+    bottom: 55%;
+    left: 12.0%;
+    width: 18vw;
+    height: 2.5vw;
+}
