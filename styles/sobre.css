@@ -1,0 +1,19 @@
+.cTexto {
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    margin-right: 30%;
+}
+
+.cTexto .titulo {
+    font-size: 52px;
+    color: #002e4e;
+}
+
+.cTexto .texto {
+    font-size: 29px;
+    color: #062e4e;
+
+}
+
+.imgSobre {}
